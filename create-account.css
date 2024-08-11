@@ -1,0 +1,143 @@
+/* Create Account Page Styles */
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 28px; /* Ensure consistent font size */
+}
+
+.header-content .fraud {
+    color: red;
+}
+
+.header-content .fortress {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for navigation buttons */
+nav ul li a button {
+    background-color: #007bff; /* Blue color */
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Ensure font size is consistent */
+}
+
+nav ul li a button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+main {
+    margin-top: 80px; /* Adjusted to account for fixed header */
+    padding: 20px;
+}
+
+.account-section {
+    background-color: #fff;
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px; /* Center and limit width */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.account-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px; /* Larger font size for heading */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+    font-size: 16px; /* Larger font size for inputs */
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for button */
+    display: block;
+    margin: 20px auto 0; /* Center the button */
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.success-message {
+    text-align: center;
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+}

@@ -1,0 +1,118 @@
+/* General styles */
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 28px; /* Increased font size by 4px */
+}
+
+.header-content .fraud {
+    color: red;
+}
+
+.header-content .fortress {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for navigation buttons */
+nav ul li a button {
+    background-color: #007bff; /* Blue color */
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Ensure font size is consistent */
+}
+
+nav ul li a button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+main {
+    margin-top: 80px; /* Adjusted to account for fixed header */
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.search-section, .about-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px; /* Center and limit width */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 20px;
+}
+
+.search-section input {
+    width: calc(100% - 22px); /* Adjust width to fit padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #555;
+}
